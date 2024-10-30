@@ -8,7 +8,7 @@ describe('Register',async()=>{
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
         registerPage.open();    
-        await $('.MuiBox-root.jss8.jss1.jss3').waitForDisplayed();
+        await $('#eJOY__extension_ai_adv_root').waitForDisplayed();
     })
     it('should register user success with valid data', async ()=>{
         userData.userValid.email = myValidation.generateRandomEmail('fpt.com')

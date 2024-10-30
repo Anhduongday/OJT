@@ -6,7 +6,7 @@ describe('Login',async()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{
         loginPage.open();
-        await $('#J0Dtm7BEUupJlcxD').waitForDisplayed();
+        await $('#eJOY__extension_ai_adv_root').waitForDisplayed();
     })
 
     it('should login success with existed account',async ()=>{
