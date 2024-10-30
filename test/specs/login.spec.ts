@@ -20,7 +20,7 @@ describe('Login',async()=>{
 
     it('should login unsuccess with all empty field',async()=>{
         await loginPage.login(userData.userAllEmptyField);
-        await loginPage.verifyInputFieldEmpty();
+        await loginPage.verifyInputFieldEmpty();;
     })
     it('should login unsuccess with the invalid pass format',async()=>{
         await loginPage.login(userData.userShortPassword);
