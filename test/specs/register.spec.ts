@@ -8,7 +8,7 @@ describe('Register',async()=>{
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
         registerPage.open();    
-        await $('#eJOY__extension_ai_adv_root').waitForDisplayed();
+        await $('#eJOY__extension_ai_adv_root').isDisplayed();
     })
     it('should register user success with valid data', async ()=>{
         userData.userValid.email = myValidation.generateRandomEmail('fpt.com')
