@@ -6,7 +6,7 @@ describe('Login',async()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{
         loginPage.open();
-        await $('.MuiBox-root.jss8.jss1.jss3').waitForDisplayed();
+        await $('#J0Dtm7BEUupJlcxD').waitForDisplayed();
     })
 
     it('should login success with existed account',async ()=>{
