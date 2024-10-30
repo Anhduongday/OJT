@@ -25,7 +25,7 @@ class Account extends Page {
         await browser.waitUntil(async () => {
             return await browser.getUrl() === 'https://www.webtaphoa.vn/account';
         });
-        const nameAccount = user.firstName + ' ' + user.lastName;
+        const nameAccount = user.lastName + ' ' + user.firstName;
         await expect(this.nameAccountTxt).toHaveText(nameAccount);
         await expect(this.emailAccountTxt).toHaveText(user.email.toLowerCase());
     }
