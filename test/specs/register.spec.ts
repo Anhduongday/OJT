@@ -8,7 +8,7 @@ describe('Register',async()=>{
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
         registerPage.open();    
-        await $('#ezca-btn-zalo').waitForDisplayed();
+        await $('#ezca-btn-zalo').waitForClickable();
     })
     it('should register user success with valid data', async ()=>{
         await registerPage.register(userData.userValid);

@@ -6,7 +6,7 @@ describe('Search', async () => {
     beforeEach(async () => {
         allureReporter.addOwner('DuongHA');
         searchPage.open();
-        await $('#ezca-btn-zalo').waitForDisplayed();
+        await $('#ezca-btn-zalo').waitForClickable();
     })
 
     it('should display relevant items when searching with simple content', async () => {

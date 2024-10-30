@@ -2,7 +2,7 @@ export const userData = {
     userValid:{
         lastName:'Hồ',
         firstName:'Dương',
-        email:'hothianhduong221024@gmail.com',
+        email:'hothianhduong2210246@gmail.com',
         password:'anhduong123',
         mess: 'Register success'
     },
