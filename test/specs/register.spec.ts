@@ -33,7 +33,7 @@ describe('Register',async()=>{
     })
 
     it('Register user unsuccess with  a password that is too long',async()=>{
-        userData.userValid.email = myValidation.generateRandomEmail('gmail.com')
+        userData.userLongPassword.email = myValidation.generateRandomEmail('gmail.com')
         await registerPage.register(userData.userLongPassword);
         await registerPage.verifyErrorMessageMatches(userData.userLongPassword.mess);
     })
