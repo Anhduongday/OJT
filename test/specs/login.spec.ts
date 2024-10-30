@@ -23,8 +23,8 @@ describe('Login',async()=>{
         await loginPage.verifyInputFieldEmpty();;
     })
     it('should login unsuccess with the invalid pass format',async()=>{
-        await loginPage.login(userData.userShortPassword);
-        await loginPage.verifyErrorMessageMatches(userData.userShortPassword.messLogin);
+        await loginPage.login(userData.userShortPasswordLogin);
+        await loginPage.verifyErrorMessageMatches(userData.userShortPasswordLogin.messLogin);
     })
     it('should login unsuccess with the invalid email format',async()=>{
         await loginPage.login(userData.userInvalidEmailFormat);

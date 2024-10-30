@@ -26,6 +26,7 @@ class Register extends Account {
         allureReporter.addStep('Input data to register form');
     }
     async verifyErrorMessageMatches(mess: string) {
+        
        await elementPage.verifyErrorMessMatches(mess);
     }
     async verifyInputFieldIsEmpty() {
