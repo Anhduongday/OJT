@@ -3,7 +3,7 @@ import allureReporter from '@wdio/allure-reporter'
 describe('Filter and sort',async ()=>{
     beforeEach(async()=>{
         filterandsortPage.open();
-        await $('#ezca-btn-zalo').waitForDisplayed();
+        await $('#ezca-btn-zalo').waitForClickable();
     })
 
     it('should display items when filtering with a content in Thương hiệu ',async()=>{

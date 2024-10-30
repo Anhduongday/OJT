@@ -31,7 +31,7 @@ describe('Register',async()=>{
         await registerPage.verifyErrorMessageMatches(userData.userShortPassword.mess);
     })
 
-    it.only('Register user unsuccess with  a password that is too long',async()=>{
+    it('Register user unsuccess with  a password that is too long',async()=>{
         await registerPage.register(userData.userExistEmailButCorrectPass);
         await registerPage.verifyErrorMessageMatches(userData.userExistEmailButCorrectPass.mess);
     })

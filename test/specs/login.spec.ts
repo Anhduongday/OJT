@@ -6,7 +6,7 @@ describe('Login',async()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{
         loginPage.open();
-        await $('#ezca-btn-zalo').waitForDisplayed();
+        await $('#ezca-btn-zalo').waitForClickable();
     })
 
     it('should login success with existed account',async ()=>{
