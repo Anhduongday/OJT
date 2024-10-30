@@ -8,7 +8,7 @@ describe('Register',async()=>{
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
         registerPage.open();    
-        await $('#ezca-btn-zalo').waitForClickable();
+        await $('.MuiBox-root.jss8.jss1.jss3').waitForClickable();
     })
     it('should register user success with valid data', async ()=>{
         userData.userValid.email = myValidation.generateRandomEmail('fpt.com')

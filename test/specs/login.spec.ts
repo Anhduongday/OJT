@@ -6,7 +6,7 @@ describe('Login',async()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{
         loginPage.open();
-        await $('#ezca-btn-zalo').waitForClickable();
+        await $('.MuiBox-root.jss8.jss1.jss3').waitForClickable();
     })
 
     it('should login success with existed account',async ()=>{
