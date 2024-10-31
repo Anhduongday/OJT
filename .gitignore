@@ -39,5 +39,4 @@ Thumbs.db
 *.sublime-workspace
 
 tmp/
-report/
 tests/
