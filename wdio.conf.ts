@@ -55,12 +55,9 @@ export const config: WebdriverIO.Config = {
     //
     capabilities: [{
         browserName: 'chrome',
-        // 'goog:chromeOptions': {
-        //     args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
-        // },
-        // "wdio-ics:options": {
-        //     logName: "chrome-latest-one",
-        // },
+        'goog:chromeOptions': {
+            args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
+        }
     }],
 
     //

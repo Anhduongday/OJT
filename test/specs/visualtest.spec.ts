@@ -32,4 +32,10 @@ describe('Visual', () => {
     it('Check saveFullPageScreen', async () => {
         await browser.checkFullPageScreen( 'FullPageScreen');
     });
+    it('Check saveFullPageScreen 1234', async () => {
+        const logo =  await $('[data-id="3htp-tab-7"]'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Chay');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
 })
