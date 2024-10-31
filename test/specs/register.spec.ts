@@ -3,12 +3,11 @@ import Account from "../pageobjects/account.page";
 import myValidation from "../untils/check.util";
 import registerPage from "../pageobjects/register.page"
 import allureReporter from '@wdio/allure-reporter'
-describe('Register',async()=>{
+describe('Register',()=>{
     const accountPage = new Account();
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
-        registerPage.open();    
-        await $('#eJOY__extension_ai_adv_root').isDisplayed();
+        await registerPage.open();    
     })
     it('should register user success with valid data', async ()=>{
         userData.userValid.email = myValidation.generateRandomEmail('fpt.com')

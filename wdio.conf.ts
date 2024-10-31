@@ -1,4 +1,5 @@
 import allure from 'allure-commandline';
+import path from "node:path";
 export const config: WebdriverIO.Config = {
     //
     // ====================
@@ -7,7 +8,7 @@ export const config: WebdriverIO.Config = {
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
     tsConfigPath: './tsconfig.json',
-    
+
     //
     // ==================
     // Specify Test Files
@@ -54,11 +55,14 @@ export const config: WebdriverIO.Config = {
     //
     capabilities: [{
         browserName: 'chrome',
-        'goog:chromeOptions': {
-        args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
-    }
+        // 'goog:chromeOptions': {
+        //     args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
+        // },
+        // "wdio-ics:options": {
+        //     logName: "chrome-latest-one",
+        // },
     }],
-   
+
     //
     // ===================
     // Test Configurations
@@ -106,7 +110,20 @@ export const config: WebdriverIO.Config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['visual'],
+    services: [
+        [
+            "visual",
+            {
+                // Some options, see the docs for more
+                baselineFolder: path.join(process.cwd(), "tests", "baseline"),
+                formatImageName: "{tag}-{logName}-{width}x{height}",
+                screenshotPath: path.join(process.cwd(), "tmp"),
+                savePerInstance: true,
+                autoSaveBaseline: true,
+                // ... more options
+            },
+        ],
+    ],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -115,7 +132,7 @@ export const config: WebdriverIO.Config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'mocha',
-    
+
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
@@ -238,7 +255,7 @@ export const config: WebdriverIO.Config = {
      * @param {boolean} result.passed    true if test has passed, otherwise false
      * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: async function (test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
             await browser.takeScreenshot();
         }
@@ -285,17 +302,17 @@ export const config: WebdriverIO.Config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    onComplete: function() {
-        // const reportError = new Error('Could not generate Allure report')
+    onComplete: function () {
+        const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results', '--clean'])
-        
+
         return new Promise<void>((resolve, reject) => {
             const generationTimeout = setTimeout(
                 () => reject(reportError),
                 5000
             )
 
-            generation.on('exit', function(exitCode:number) {
+            generation.on('exit', function (exitCode: number) {
                 clearTimeout(generationTimeout)
 
                 if (exitCode !== 0) {

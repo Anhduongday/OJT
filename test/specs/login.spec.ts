@@ -2,11 +2,10 @@ import { userData } from "../model/data";
 import Account from "../pageobjects/account.page";
 import loginPage from "../pageobjects/login.page"
 import allureReporter from '@wdio/allure-reporter'
-describe('Login',async()=>{
+describe('Login',()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{
-        loginPage.open();
-        await $('#eJOY__extension_ai_adv_root').waitForDisplayed();
+        await loginPage.open();
     })
 
     it('should login success with existed account',async ()=>{
