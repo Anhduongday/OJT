@@ -41,7 +41,7 @@ describe('Visual', () => {
     it.only('Check checkTabbablePage 1234', async () => {
         browser.url('https://www.webtaphoa.vn/account/register');
         await browser.pause(2000);
-        await browser.checkTabbablePage('save-tabbable', {
+        await browser.checkTabbablePage('save-tabbable123', {
         })
     });
 })
