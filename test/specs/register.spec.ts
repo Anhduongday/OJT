@@ -8,6 +8,7 @@ describe('Register',()=>{
     beforeEach(async()=>{
         allureReporter.addOwner('DuongHA')
         await registerPage.open();    
+        await browser.pause(3000)
     })
     it('should register user success with valid data', async ()=>{
         userData.userValid.email = myValidation.generateRandomEmail('fpt.com')

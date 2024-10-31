@@ -4,8 +4,9 @@ import loginPage from "../pageobjects/login.page"
 import allureReporter from '@wdio/allure-reporter'
 describe('Login',()=>{
     const accountPage = new Account();
-    beforeEach(()=>{
+    beforeEach(async ()=>{
          loginPage.open();
+         await browser.pause(3000)
     })
     it('should login success with existed account',async ()=>{
         await loginPage.login(userData.userExistEmail);
