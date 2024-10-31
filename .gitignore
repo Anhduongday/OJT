@@ -37,3 +37,7 @@ Thumbs.db
 .vscode/
 *.sublime-project
 *.sublime-workspace
+
+tmp/
+report/
+tests/

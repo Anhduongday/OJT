@@ -1,0 +1,41 @@
+name: Visual Testing
+
+on:
+  push:
+    branches:
+      - main 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  visual-test:
+    runs-on: ubuntu-latest
+
+    services:
+      xvfb:
+        image: frascold/xvfb
+        options: >-
+          --name xvfb
+          --restart unless-stopped
+          -p 99:99
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18 
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run visual tests
+        run: npm run test:visual 
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() }}
+        with:
+          name: visual-report
+          path: ./visual-report

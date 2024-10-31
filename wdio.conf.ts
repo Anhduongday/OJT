@@ -55,9 +55,9 @@ export const config: WebdriverIO.Config = {
     //
     capabilities: [{
         browserName: 'chrome',
-        'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
-        },
+        // 'goog:chromeOptions': {
+        //     args: ['--headless', '--disable-gpu', '--no-sandbox', '--window-size=1920,1080']
+        // },
         // "wdio-ics:options": {
         //     logName: "chrome-latest-one",
         // },
@@ -120,6 +120,7 @@ export const config: WebdriverIO.Config = {
                 screenshotPath: path.join(process.cwd(), "tmp"),
                 savePerInstance: true,
                 autoSaveBaseline: true,
+                createJsonReportFiles: true,//npm install @wdio/visual-reporter --save-dev
                 // ... more options
             },
         ],

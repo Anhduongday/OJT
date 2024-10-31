@@ -3,12 +3,33 @@ import VisualService from "@wdio/visual-service";
 import registerPage from "../pageobjects/register.page";
 describe('Visual', () => {
     beforeEach(async () => {
-        browser.url('https://webdriver.io/')
+        browser.url('https://www.webtaphoa.vn/');
     })
-    it('Check Logo', async () => {
-        const logo =  await $('#ms-floating-button'); // Sử dụng await
-        await logo.waitForDisplayed(); // Chờ logo hiển thị
-
-        await browser.checkElement(logo, 'IOLogoFloating', {});
+    it('Check Logo 122', async () => {
+        const logo =  await $('#dropdownCartButton'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Cart');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
+    it('Check Logo 124', async () => {
+        const logo =  await $('.btn-menu-categories'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Menu');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
+    it('Check Logo 3', async () => {
+        const logo =  await $('.btn-search'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Search');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
+    it('Check Logo 4', async () => {
+        const logo =  await $('[data-id="2htp-tab-2"]'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Traicay');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
+    it('Check saveFullPageScreen', async () => {
+        await browser.checkFullPageScreen( 'FullPageScreen');
     });
 })
