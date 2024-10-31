@@ -4,15 +4,8 @@ import loginPage from "../pageobjects/login.page"
 import allureReporter from '@wdio/allure-reporter'
 describe('Login',()=>{
     const accountPage = new Account();
-    beforeEach(async ()=>{
-        await loginPage.open();
-        browser.waitUntil(
-            () => browser.execute(() => document.readyState === 'complete'),
-            {
-              timeout: 60 * 1000, // 60 seconds
-              timeoutMsg: 'Message on failure'
-            }
-          );
+    beforeEach(()=>{
+         loginPage.open();
     })
     it('should login success with existed account',async ()=>{
         await loginPage.login(userData.userExistEmail);
