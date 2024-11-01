@@ -1,0 +1,308 @@
+[
+  {
+    "description": "Visual",
+    "data": [
+      {
+        "test": "Check Logo 122",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo 122",
+            "tag": "Cart",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Cart--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Cart--1050x652.png",
+              "fileName": "Cart--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 29,
+                  "width": 75
+                },
+                "baseline": {
+                  "height": 29,
+                  "width": 75
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check saveFullPageScreen 1234",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check saveFullPageScreen 1234",
+            "tag": "Chay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Chay--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Chay--1050x652.png",
+              "fileName": "Chay--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 35,
+                  "width": 58
+                },
+                "baseline": {
+                  "height": 35,
+                  "width": 58
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check saveFullPageScreen",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check saveFullPageScreen",
+            "tag": "FullPageScreen",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkFullPageScreen",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\FullPageScreen--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\FullPageScreen--1050x652.png",
+              "fileName": "FullPageScreen--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 7617,
+                  "width": 1036
+                },
+                "baseline": {
+                  "height": 7617,
+                  "width": 1036
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo 124",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo 124",
+            "tag": "Menu",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Menu--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Menu--1050x652.png",
+              "fileName": "Menu--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 39,
+                  "width": 77
+                },
+                "baseline": {
+                  "height": 39,
+                  "width": 77
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check checkTabbablePage 1234",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check checkTabbablePage 1234",
+            "tag": "save-tabbable123",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkTabbablePage",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\save-tabbable123--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\save-tabbable123--1050x652.png",
+              "fileName": "save-tabbable123--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 1841,
+                  "width": 1036
+                },
+                "baseline": {
+                  "height": 1841,
+                  "width": 1036
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo 3",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo 3",
+            "tag": "Search",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Search--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Search--1050x652.png",
+              "fileName": "Search--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 27,
+                  "width": 80
+                },
+                "baseline": {
+                  "height": 27,
+                  "width": 80
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo 4",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo 4",
+            "tag": "Traicay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Traicay--1050x652.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Traicay--1050x652.png",
+              "fileName": "Traicay--1050x652.png",
+              "size": {
+                "actual": {
+                  "height": 24,
+                  "width": 55
+                },
+                "baseline": {
+                  "height": 24,
+                  "width": 55
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      }
+    ]
+  }
+]

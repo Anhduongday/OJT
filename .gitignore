@@ -6,8 +6,7 @@ package-lock.json
 logs/
 *.log
 
-# Temporary files
-tmp/
+# Temporary files=
 temp/
 
 # Coverage reports
