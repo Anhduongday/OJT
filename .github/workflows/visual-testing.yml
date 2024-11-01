@@ -14,7 +14,8 @@ jobs:
         - name: Run visual tests
           run: npm run test:visual 
         - name: Run visual reported
-          run: npx wdio-visual-reporter --jsonOutput=D:\FPT-2024\AutomationTestingOJT\Session2\TapHoaViet\tmp\actual\output.json --reportFolder=D:\FPT-2024\AutomationTestingOJT\Session2\TapHoaViet\ --logLevel=debug  
+          run: npx npx wdio-visual-reporter --jsonOutput=D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\output.json --reportFolder=D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\ --logLevel=debug
+  
         - uses: actions/upload-artifact@v4
           if: ${{ always() }}
           with:
