@@ -17,6 +17,12 @@ describe('Visual', () => {
         const result = await browser.checkElement(logo, 'Menu');
         expect(result).toBeLessThanOrEqual(0.05);
     });
+    it('Check Logo NE NE', async () => {
+        const logo =  await $('.btn-tablink-mobile'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'mobile');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
     it('Check Logo 3', async () => {
         const logo =  await $('.btn-search'); 
         await logo.waitForDisplayed();
