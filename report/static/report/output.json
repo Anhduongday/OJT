@@ -44,6 +44,46 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check Logo 122",
+            "tag": "Cart",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
+              "fileName": "Cart-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 44,
+                  "width": 112
+                },
+                "baseline": {
+                  "height": 44,
+                  "width": 112
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
           }
         ]
       },
@@ -86,6 +126,46 @@
               },
               "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Chay--1050x652.png",
               "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Chay--1050x652.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check saveFullPageScreen 1234",
+            "tag": "Chay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
+              "fileName": "Chay-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 95
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 95
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png"
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
@@ -134,6 +214,137 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check saveFullPageScreen",
+            "tag": "FullPageScreen",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkFullPageScreen",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [
+                {
+                  "left": 375,
+                  "top": 5684,
+                  "right": 1544,
+                  "bottom": 5972
+                },
+                {
+                  "left": 1510,
+                  "top": 575,
+                  "right": 1535,
+                  "bottom": 586
+                },
+                {
+                  "left": 1467,
+                  "top": 575,
+                  "right": 1489,
+                  "bottom": 586
+                },
+                {
+                  "left": 1427,
+                  "top": 575,
+                  "right": 1442,
+                  "bottom": 586
+                },
+                {
+                  "left": 1295,
+                  "top": 5229,
+                  "right": 1491,
+                  "bottom": 5399
+                },
+                {
+                  "left": 982,
+                  "top": 5235,
+                  "right": 1228,
+                  "bottom": 5399
+                },
+                {
+                  "left": 776,
+                  "top": 6080,
+                  "right": 1143,
+                  "bottom": 6230
+                },
+                {
+                  "left": 391,
+                  "top": 6080,
+                  "right": 758,
+                  "bottom": 6337
+                },
+                {
+                  "left": 120,
+                  "top": 7406,
+                  "right": 311,
+                  "bottom": 7451
+                },
+                {
+                  "left": 120,
+                  "top": 6385,
+                  "right": 311,
+                  "bottom": 6430
+                },
+                {
+                  "left": 195,
+                  "top": 7464,
+                  "right": 219,
+                  "bottom": 7474
+                },
+                {
+                  "left": 195,
+                  "top": 6443,
+                  "right": 219,
+                  "bottom": 6453
+                },
+                {
+                  "left": 176,
+                  "top": 7465,
+                  "right": 189,
+                  "bottom": 7472
+                },
+                {
+                  "left": 176,
+                  "top": 6444,
+                  "right": 189,
+                  "bottom": 6451
+                }
+              ],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "diffFilePath": "static\\report\\diff\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "fileName": "FullPageScreen-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 7501,
+                  "width": 1920
+                },
+                "baseline": {
+                  "height": 7501,
+                  "width": 1920
+                },
+                "diff": {
+                  "height": 7501,
+                  "width": 1920
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "original_diffFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\diff\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "3.60",
+            "rawMisMatchPercentage": 3.599471459360974
           }
         ]
       },
@@ -176,6 +387,46 @@
               },
               "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Menu--1050x652.png",
               "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Menu--1050x652.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check Logo 124",
+            "tag": "Menu",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
+              "fileName": "Menu-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 44,
+                  "width": 117
+                },
+                "baseline": {
+                  "height": 44,
+                  "width": 117
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png"
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
@@ -224,6 +475,65 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check checkTabbablePage 1234",
+            "tag": "save-tabbable123",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkTabbablePage",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [
+                {
+                  "left": 1835,
+                  "top": 1549,
+                  "right": 1894,
+                  "bottom": 1608
+                },
+                {
+                  "left": 1835,
+                  "top": 845,
+                  "right": 1894,
+                  "bottom": 904
+                }
+              ],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "diffFilePath": "static\\report\\diff\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "fileName": "save-tabbable123-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 1784,
+                  "width": 1920
+                },
+                "baseline": {
+                  "height": 1784,
+                  "width": 1920
+                },
+                "diff": {
+                  "height": 1784,
+                  "width": 1920
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "original_diffFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\diff\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.14",
+            "rawMisMatchPercentage": 0.14349191890881913
           }
         ]
       },
@@ -269,6 +579,46 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check Logo 3",
+            "tag": "Search",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
+              "fileName": "Search-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 40,
+                  "width": 120
+                },
+                "baseline": {
+                  "height": 40,
+                  "width": 120
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
           }
         ]
       },
@@ -311,6 +661,181 @@
               },
               "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome\\Traicay--1050x652.png",
               "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome\\Traicay--1050x652.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          },
+          {
+            "description": "Visual",
+            "test": "Check Logo 4",
+            "tag": "Traicay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
+              "fileName": "Traicay-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 82
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 82
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo NE NE 2",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo NE NE 2",
+            "tag": "OKla",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\OKla-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\OKla-chrome-latest-one-1920x1080.png",
+              "fileName": "OKla-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 82
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 82
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\OKla-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\OKla-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo NE NE 3",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo NE NE 3",
+            "tag": "Okla2",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Okla2-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Okla2-chrome-latest-one-1920x1080.png",
+              "fileName": "Okla2-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 73
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 73
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Okla2-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Okla2-chrome-latest-one-1920x1080.png"
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check Logo NE NE",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check Logo NE NE",
+            "tag": "Sanvuon",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "static\\report\\actual\\desktop_chrome-headless-shell\\Sanvuon-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "static\\report\\baseline\\desktop_chrome-headless-shell\\Sanvuon-chrome-latest-one-1920x1080.png",
+              "fileName": "Sanvuon-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 67
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 67
+                }
+              },
+              "original_actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Sanvuon-chrome-latest-one-1920x1080.png",
+              "original_baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Sanvuon-chrome-latest-one-1920x1080.png"
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0

@@ -23,6 +23,18 @@ describe('Visual', () => {
         const result = await browser.checkElement(logo, 'Sanvuon');
         expect(result).toBeLessThanOrEqual(0.05);
     });
+    it('Check Logo NE NE 3', async () => {
+        const logo = await $('[data-id="2htp-tab-5"]'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'Okla2');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
+    it('Check Logo NE NE 2', async () => {
+        const logo = await $('[data-id="2htp-tab-2"]'); 
+        await logo.waitForDisplayed();
+        const result = await browser.checkElement(logo, 'OKla');
+        expect(result).toBeLessThanOrEqual(0.05);
+    });
     it('Check Logo 3', async () => {
         const logo =  await $('.btn-search'); 
         await logo.waitForDisplayed();
