@@ -18,7 +18,7 @@ describe('Visual', () => {
         expect(result).toBeLessThanOrEqual(0.05);
     });
     it('Check Logo NE NE', async () => {
-        const logo =  await $('.btn-tablink-mobile'); 
+        const logo =  $('.section-title'); 
         await logo.waitForDisplayed();
         const result = await browser.checkElement(logo, 'mobile');
         expect(result).toBeLessThanOrEqual(0.05);
