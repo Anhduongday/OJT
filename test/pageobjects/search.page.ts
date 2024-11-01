@@ -1,6 +1,7 @@
 import Page from "./page";
 import myValidation from "../untils/check.util";
 import allureReporter from '@wdio/allure-reporter'
+
 class Search extends Page{ 
     public open() {
         return super.open('');

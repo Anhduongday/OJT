@@ -3,6 +3,7 @@ import Account from "../pageobjects/account.page";
 import myValidation from "../untils/check.util";
 import registerPage from "../pageobjects/register.page"
 import allureReporter from '@wdio/allure-reporter'
+
 describe('Register',()=>{
     const accountPage = new Account();
     beforeEach(async()=>{

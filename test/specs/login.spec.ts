@@ -1,7 +1,7 @@
 import { userData } from "../model/data";
 import Account from "../pageobjects/account.page";
 import loginPage from "../pageobjects/login.page"
-import allureReporter from '@wdio/allure-reporter'
+
 describe('Login',()=>{
     const accountPage = new Account();
     beforeEach(async ()=>{

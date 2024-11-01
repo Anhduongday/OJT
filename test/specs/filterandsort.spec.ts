@@ -1,5 +1,6 @@
 import filterandsortPage from "../pageobjects/filterandsort.page"
 import allureReporter from '@wdio/allure-reporter'
+
 describe('Filter and sort',async ()=>{
     beforeEach(async()=>{
         filterandsortPage.open();

@@ -4,6 +4,7 @@ import Account from './account.page.js';
 import { User } from '../model/user.js';
 import elementPage from './commonElement.page.js';
 import allureReporter from '@wdio/allure-reporter'
+
 class LoginPage extends Account {
     public open () {
         return super.open('account/login');

@@ -1,6 +1,7 @@
 import { User } from "../model/user";
 import Page from "./page";
 import allureReporter from '@wdio/allure-reporter'
+
 class Account extends Page {
     get firstNameEdt() {
         return $('[name="customer[first_name]"]');

@@ -2,18 +2,18 @@ import AllureReporter, { step } from "@wdio/allure-reporter";
 import searchPage from "../pageobjects/search.page"
 import allure from "allure-commandline";
 import allureReporter from '@wdio/allure-reporter'
+
 describe('Search', async () => {
     beforeEach(async () => {
         allureReporter.addOwner('DuongHA');
         searchPage.open();
-        await $('#ezca-btn-zalo').waitForClickable();
+        // await $('#ezca-btn-zalo').waitForClickable();
     })
 
     it('should display relevant items when searching with simple content', async () => {
         allureReporter.addDescription('Search for a simple content in the database. It fails if items displayed are unrelated or if no items are found.', 'text');
         await searchPage.search('cafe');
         await searchPage.verifyAllItemsMatchContent('cafe');
-
     })
     it('should display relevant items when searching with related content', async () => {
         allureReporter.addDescription('Search with related to content in database. Fails if display items not releated with content or empty', 'text')

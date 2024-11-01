@@ -1,5 +1,6 @@
 import Page from "./page";
 import myValidation from "../untils/check.util";
+
 class FilterAndSort extends Page {
     public open() {
         return super.open('collections/all');

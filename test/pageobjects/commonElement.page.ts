@@ -1,4 +1,5 @@
 import allureReporter from '@wdio/allure-reporter'
+
 class CommonElement{
     async verifyInputFieldIsEmpty(inputField: ChainablePromiseElement) {
         allureReporter.addStep('Verify Input Field Empty')

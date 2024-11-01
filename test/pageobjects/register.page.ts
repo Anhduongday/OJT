@@ -2,6 +2,7 @@ import { User } from "../model/user";
 import Account from "./account.page";
 import elementPage from "./commonElement.page";
 import allureReporter from '@wdio/allure-reporter'
+
 class Register extends Account {
     public open() {
         return super.open('account/register');
