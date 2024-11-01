@@ -13,7 +13,7 @@ jobs:
           run: npm install
         - name: List report files
           if: ${{ always() }}
-          run: ls -la ./tmp/actual
+          run: rm -rf ./report
         - name: Run visual tests
           run: npm run test:visual 
         - name: Run visual reported
