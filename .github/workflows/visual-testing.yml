@@ -13,9 +13,6 @@ jobs:
           run: npm install
         - name: Run visual tests
           run: npm run test:visual 
-        - name: Delete report files
-          if: ${{ always() }}
-          run: rm -rf ./report/
         - name: Run visual reported
           if: ${{ always() }}
           run: npx npx wdio-visual-reporter --jsonOutput=./tmp/actual/output.json --reportFolder=./report--logLevel=debug
