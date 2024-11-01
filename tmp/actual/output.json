@@ -42,44 +42,6 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check Logo 122",
-            "tag": "Cart",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkElement",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
-              "fileName": "Cart-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 44,
-                  "width": 112
-                },
-                "baseline": {
-                  "height": 44,
-                  "width": 112
-                }
-              }
-            },
-            "misMatchPercentage": "0.00",
-            "rawMisMatchPercentage": 0
           }
         ]
       },
@@ -118,44 +80,6 @@
                 "baseline": {
                   "height": 35,
                   "width": 58
-                }
-              }
-            },
-            "misMatchPercentage": "0.00",
-            "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check saveFullPageScreen 1234",
-            "tag": "Chay",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkElement",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
-              "fileName": "Chay-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 36,
-                  "width": 95
-                },
-                "baseline": {
-                  "height": 36,
-                  "width": 95
                 }
               }
             },
@@ -204,134 +128,6 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check saveFullPageScreen",
-            "tag": "FullPageScreen",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkFullPageScreen",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [
-                {
-                  "left": 375,
-                  "top": 5684,
-                  "right": 1544,
-                  "bottom": 5972
-                },
-                {
-                  "left": 1510,
-                  "top": 575,
-                  "right": 1535,
-                  "bottom": 586
-                },
-                {
-                  "left": 1467,
-                  "top": 575,
-                  "right": 1489,
-                  "bottom": 586
-                },
-                {
-                  "left": 1427,
-                  "top": 575,
-                  "right": 1442,
-                  "bottom": 586
-                },
-                {
-                  "left": 1295,
-                  "top": 5229,
-                  "right": 1491,
-                  "bottom": 5399
-                },
-                {
-                  "left": 982,
-                  "top": 5235,
-                  "right": 1228,
-                  "bottom": 5399
-                },
-                {
-                  "left": 776,
-                  "top": 6080,
-                  "right": 1143,
-                  "bottom": 6230
-                },
-                {
-                  "left": 391,
-                  "top": 6080,
-                  "right": 758,
-                  "bottom": 6337
-                },
-                {
-                  "left": 120,
-                  "top": 7406,
-                  "right": 311,
-                  "bottom": 7451
-                },
-                {
-                  "left": 120,
-                  "top": 6385,
-                  "right": 311,
-                  "bottom": 6430
-                },
-                {
-                  "left": 195,
-                  "top": 7464,
-                  "right": 219,
-                  "bottom": 7474
-                },
-                {
-                  "left": 195,
-                  "top": 6443,
-                  "right": 219,
-                  "bottom": 6453
-                },
-                {
-                  "left": 176,
-                  "top": 7465,
-                  "right": 189,
-                  "bottom": 7472
-                },
-                {
-                  "left": 176,
-                  "top": 6444,
-                  "right": 189,
-                  "bottom": 6451
-                }
-              ],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
-              "diffFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\diff\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
-              "fileName": "FullPageScreen-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 7501,
-                  "width": 1920
-                },
-                "baseline": {
-                  "height": 7501,
-                  "width": 1920
-                },
-                "diff": {
-                  "height": 7501,
-                  "width": 1920
-                }
-              }
-            },
-            "misMatchPercentage": "3.60",
-            "rawMisMatchPercentage": 3.599471459360974
           }
         ]
       },
@@ -370,44 +166,6 @@
                 "baseline": {
                   "height": 39,
                   "width": 77
-                }
-              }
-            },
-            "misMatchPercentage": "0.00",
-            "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check Logo 124",
-            "tag": "Menu",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkElement",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
-              "fileName": "Menu-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 44,
-                  "width": 117
-                },
-                "baseline": {
-                  "height": 44,
-                  "width": 117
                 }
               }
             },
@@ -456,62 +214,6 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check checkTabbablePage 1234",
-            "tag": "save-tabbable123",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkTabbablePage",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [
-                {
-                  "left": 1835,
-                  "top": 1549,
-                  "right": 1894,
-                  "bottom": 1608
-                },
-                {
-                  "left": 1835,
-                  "top": 845,
-                  "right": 1894,
-                  "bottom": 904
-                }
-              ],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
-              "diffFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\diff\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
-              "fileName": "save-tabbable123-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 1784,
-                  "width": 1920
-                },
-                "baseline": {
-                  "height": 1784,
-                  "width": 1920
-                },
-                "diff": {
-                  "height": 1784,
-                  "width": 1920
-                }
-              }
-            },
-            "misMatchPercentage": "0.14",
-            "rawMisMatchPercentage": 0.14349191890881913
           }
         ]
       },
@@ -550,44 +252,6 @@
                 "baseline": {
                   "height": 27,
                   "width": 80
-                }
-              }
-            },
-            "misMatchPercentage": "0.00",
-            "rawMisMatchPercentage": 0
-          },
-          {
-            "description": "Visual",
-            "test": "Check Logo 3",
-            "tag": "Search",
-            "instanceData": {
-              "browser": {
-                "name": "chrome-headless-shell",
-                "version": "127.0.6533.100"
-              },
-              "platform": {
-                "name": "windows",
-                "version": "not-known"
-              }
-            },
-            "commandName": "checkElement",
-            "framework": "mocha",
-            "boundingBoxes": {
-              "diffBoundingBoxes": [],
-              "ignoredBoxes": []
-            },
-            "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
-              "fileName": "Search-chrome-latest-one-1920x1080.png",
-              "size": {
-                "actual": {
-                  "height": 40,
-                  "width": 120
-                },
-                "baseline": {
-                  "height": 40,
-                  "width": 120
                 }
               }
             },
@@ -636,11 +300,16 @@
             },
             "misMatchPercentage": "0.00",
             "rawMisMatchPercentage": 0
-          },
+          }
+        ]
+      },
+      {
+        "test": "Check show dropdown correct ",
+        "data": [
           {
             "description": "Visual",
-            "test": "Check Logo 4",
-            "tag": "Traicay",
+            "test": "Check show dropdown correct ",
+            "tag": "Cart",
             "instanceData": {
               "browser": {
                 "name": "chrome-headless-shell",
@@ -658,17 +327,806 @@
               "ignoredBoxes": []
             },
             "fileData": {
-              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
-              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
-              "fileName": "Traicay-chrome-latest-one-1920x1080.png",
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Cart-chrome-latest-one-1920x1080.png",
+              "fileName": "Cart-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 44,
+                  "width": 112
+                },
+                "baseline": {
+                  "height": 44,
+                  "width": 112
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check show element chay",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check show element chay",
+            "tag": "Chay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Chay-chrome-latest-one-1920x1080.png",
+              "fileName": "Chay-chrome-latest-one-1920x1080.png",
               "size": {
                 "actual": {
                   "height": 36,
-                  "width": 82
+                  "width": 95
                 },
                 "baseline": {
                   "height": 36,
-                  "width": 82
+                  "width": 95
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check show full page",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check show full page",
+            "tag": "FullPageScreen",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkFullPageScreen",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [
+                {
+                  "left": 990,
+                  "top": 2602,
+                  "right": 1529,
+                  "bottom": 3033
+                },
+                {
+                  "left": 1529,
+                  "top": 1717,
+                  "right": 1529,
+                  "bottom": 2146
+                },
+                {
+                  "left": 1510,
+                  "top": 575,
+                  "right": 1535,
+                  "bottom": 586
+                },
+                {
+                  "left": 1275,
+                  "top": 4626,
+                  "right": 1512,
+                  "bottom": 4660
+                },
+                {
+                  "left": 1491,
+                  "top": 6460,
+                  "right": 1505,
+                  "bottom": 6470
+                },
+                {
+                  "left": 1257,
+                  "top": 4698,
+                  "right": 1529,
+                  "bottom": 4783
+                },
+                {
+                  "left": 1277,
+                  "top": 3760,
+                  "right": 1510,
+                  "bottom": 3774
+                },
+                {
+                  "left": 1286,
+                  "top": 5229,
+                  "right": 1515,
+                  "bottom": 5399
+                },
+                {
+                  "left": 1466,
+                  "top": 3841,
+                  "right": 1502,
+                  "bottom": 3877
+                },
+                {
+                  "left": 1466,
+                  "top": 2090,
+                  "right": 1502,
+                  "bottom": 2126
+                },
+                {
+                  "left": 1481,
+                  "top": 6364,
+                  "right": 1515,
+                  "bottom": 6383
+                },
+                {
+                  "left": 1276,
+                  "top": 2010,
+                  "right": 1509,
+                  "bottom": 2024
+                },
+                {
+                  "left": 1298,
+                  "top": 2033,
+                  "right": 1488,
+                  "bottom": 2045
+                },
+                {
+                  "left": 1466,
+                  "top": 575,
+                  "right": 1491,
+                  "bottom": 586
+                },
+                {
+                  "left": 1318,
+                  "top": 3783,
+                  "right": 1469,
+                  "bottom": 3795
+                },
+                {
+                  "left": 1300,
+                  "top": 1717,
+                  "right": 1488,
+                  "bottom": 1988
+                },
+                {
+                  "left": 1432,
+                  "top": 6364,
+                  "right": 1475,
+                  "bottom": 6383
+                },
+                {
+                  "left": 1427,
+                  "top": 575,
+                  "right": 1442,
+                  "bottom": 586
+                },
+                {
+                  "left": 1339,
+                  "top": 3853,
+                  "right": 1427,
+                  "bottom": 3866
+                },
+                {
+                  "left": 1360,
+                  "top": 4669,
+                  "right": 1428,
+                  "bottom": 4692
+                },
+                {
+                  "left": 1391,
+                  "top": 6391,
+                  "right": 1428,
+                  "bottom": 6406
+                },
+                {
+                  "left": 1339,
+                  "top": 2102,
+                  "right": 1427,
+                  "bottom": 2115
+                },
+                {
+                  "left": 1344,
+                  "top": 6391,
+                  "right": 1385,
+                  "bottom": 6407
+                },
+                {
+                  "left": 1355,
+                  "top": 2062,
+                  "right": 1432,
+                  "bottom": 2076
+                },
+                {
+                  "left": 1174,
+                  "top": 6458,
+                  "right": 1485,
+                  "bottom": 6473
+                },
+                {
+                  "left": 1359,
+                  "top": 3812,
+                  "right": 1428,
+                  "bottom": 3826
+                },
+                {
+                  "left": 1174,
+                  "top": 6364,
+                  "right": 1426,
+                  "bottom": 6407
+                },
+                {
+                  "left": 1284,
+                  "top": 2090,
+                  "right": 1303,
+                  "bottom": 2126
+                },
+                {
+                  "left": 1277,
+                  "top": 4430,
+                  "right": 1508,
+                  "bottom": 4592
+                },
+                {
+                  "left": 1258,
+                  "top": 3508,
+                  "right": 1529,
+                  "bottom": 3698
+                },
+                {
+                  "left": 1256,
+                  "top": 1716,
+                  "right": 1257,
+                  "bottom": 2147
+                },
+                {
+                  "left": 1240,
+                  "top": 1716,
+                  "right": 1241,
+                  "bottom": 2147
+                },
+                {
+                  "left": 988,
+                  "top": 2010,
+                  "right": 1221,
+                  "bottom": 2027
+                },
+                {
+                  "left": 1187,
+                  "top": 3852,
+                  "right": 1203,
+                  "bottom": 3865
+                },
+                {
+                  "left": 1177,
+                  "top": 2090,
+                  "right": 1213,
+                  "bottom": 2126
+                },
+                {
+                  "left": 1095,
+                  "top": 3762,
+                  "right": 1210,
+                  "bottom": 3777
+                },
+                {
+                  "left": 994,
+                  "top": 4625,
+                  "right": 1215,
+                  "bottom": 4663
+                },
+                {
+                  "left": 1006,
+                  "top": 5218,
+                  "right": 1228,
+                  "bottom": 5399
+                },
+                {
+                  "left": 1010,
+                  "top": 2033,
+                  "right": 1200,
+                  "bottom": 2045
+                },
+                {
+                  "left": 1161,
+                  "top": 6080,
+                  "right": 1528,
+                  "bottom": 6337
+                },
+                {
+                  "left": 1028,
+                  "top": 1717,
+                  "right": 1180,
+                  "bottom": 1988
+                },
+                {
+                  "left": 1017,
+                  "top": 3781,
+                  "right": 1192,
+                  "bottom": 3795
+                },
+                {
+                  "left": 1020,
+                  "top": 4430,
+                  "right": 1169,
+                  "bottom": 4596
+                },
+                {
+                  "left": 1050,
+                  "top": 3853,
+                  "right": 1138,
+                  "bottom": 3866
+                },
+                {
+                  "left": 1071,
+                  "top": 4669,
+                  "right": 1139,
+                  "bottom": 4691
+                },
+                {
+                  "left": 1050,
+                  "top": 2102,
+                  "right": 1138,
+                  "bottom": 2115
+                },
+                {
+                  "left": 789,
+                  "top": 6458,
+                  "right": 1120,
+                  "bottom": 6473
+                },
+                {
+                  "left": 375,
+                  "top": 130,
+                  "right": 1147,
+                  "bottom": 384
+                },
+                {
+                  "left": 1000,
+                  "top": 3760,
+                  "right": 1088,
+                  "bottom": 3774
+                },
+                {
+                  "left": 963,
+                  "top": 6392,
+                  "right": 1092,
+                  "bottom": 6404
+                },
+                {
+                  "left": 1068,
+                  "top": 2062,
+                  "right": 1142,
+                  "bottom": 2076
+                },
+                {
+                  "left": 1070,
+                  "top": 3812,
+                  "right": 1139,
+                  "bottom": 3826
+                },
+                {
+                  "left": 991,
+                  "top": 6364,
+                  "right": 1130,
+                  "bottom": 6383
+                },
+                {
+                  "left": 968,
+                  "top": 4698,
+                  "right": 1241,
+                  "bottom": 4783
+                },
+                {
+                  "left": 969,
+                  "top": 3505,
+                  "right": 1240,
+                  "bottom": 3698
+                },
+                {
+                  "left": 940,
+                  "top": 6368,
+                  "right": 985,
+                  "bottom": 6383
+                },
+                {
+                  "left": 789,
+                  "top": 6365,
+                  "right": 957,
+                  "bottom": 6407
+                },
+                {
+                  "left": 896,
+                  "top": 6424,
+                  "right": 950,
+                  "bottom": 6434
+                },
+                {
+                  "left": 699,
+                  "top": 3760,
+                  "right": 933,
+                  "bottom": 3795
+                },
+                {
+                  "left": 699,
+                  "top": 2010,
+                  "right": 931,
+                  "bottom": 2027
+                },
+                {
+                  "left": 898,
+                  "top": 4717,
+                  "right": 914,
+                  "bottom": 4730
+                },
+                {
+                  "left": 898,
+                  "top": 3852,
+                  "right": 914,
+                  "bottom": 3865
+                },
+                {
+                  "left": 888,
+                  "top": 2090,
+                  "right": 924,
+                  "bottom": 2126
+                },
+                {
+                  "left": 390,
+                  "top": 2602,
+                  "right": 973,
+                  "bottom": 3033
+                },
+                {
+                  "left": 708,
+                  "top": 4625,
+                  "right": 924,
+                  "bottom": 4639
+                },
+                {
+                  "left": 693,
+                  "top": 5218,
+                  "right": 941,
+                  "bottom": 5399
+                },
+                {
+                  "left": 735,
+                  "top": 4651,
+                  "right": 897,
+                  "bottom": 4663
+                },
+                {
+                  "left": 734,
+                  "top": 2033,
+                  "right": 896,
+                  "bottom": 2048
+                },
+                {
+                  "left": 766,
+                  "top": 4430,
+                  "right": 863,
+                  "bottom": 4603
+                },
+                {
+                  "left": 739,
+                  "top": 1717,
+                  "right": 887,
+                  "bottom": 1988
+                },
+                {
+                  "left": 778,
+                  "top": 2062,
+                  "right": 852,
+                  "bottom": 2076
+                },
+                {
+                  "left": 762,
+                  "top": 4717,
+                  "right": 849,
+                  "bottom": 4730
+                },
+                {
+                  "left": 762,
+                  "top": 3853,
+                  "right": 849,
+                  "bottom": 3866
+                },
+                {
+                  "left": 761,
+                  "top": 2102,
+                  "right": 849,
+                  "bottom": 2115
+                },
+                {
+                  "left": 784,
+                  "top": 3812,
+                  "right": 847,
+                  "bottom": 3826
+                },
+                {
+                  "left": 776,
+                  "top": 6080,
+                  "right": 1143,
+                  "bottom": 6337
+                },
+                {
+                  "left": 751,
+                  "top": 4677,
+                  "right": 882,
+                  "bottom": 4691
+                },
+                {
+                  "left": 707,
+                  "top": 4705,
+                  "right": 726,
+                  "bottom": 4741
+                },
+                {
+                  "left": 707,
+                  "top": 3841,
+                  "right": 726,
+                  "bottom": 3877
+                },
+                {
+                  "left": 707,
+                  "top": 2090,
+                  "right": 726,
+                  "bottom": 2126
+                },
+                {
+                  "left": 404,
+                  "top": 6363,
+                  "right": 745,
+                  "bottom": 6407
+                },
+                {
+                  "left": 689,
+                  "top": 3483,
+                  "right": 943,
+                  "bottom": 3725
+                },
+                {
+                  "left": 679,
+                  "top": 5217,
+                  "right": 680,
+                  "bottom": 5399
+                },
+                {
+                  "left": 679,
+                  "top": 4430,
+                  "right": 680,
+                  "bottom": 4762
+                },
+                {
+                  "left": 679,
+                  "top": 3466,
+                  "right": 680,
+                  "bottom": 3898
+                },
+                {
+                  "left": 679,
+                  "top": 1716,
+                  "right": 680,
+                  "bottom": 2147
+                },
+                {
+                  "left": 406,
+                  "top": 6458,
+                  "right": 733,
+                  "bottom": 6473
+                },
+                {
+                  "left": 663,
+                  "top": 5217,
+                  "right": 664,
+                  "bottom": 5399
+                },
+                {
+                  "left": 663,
+                  "top": 4430,
+                  "right": 664,
+                  "bottom": 4762
+                },
+                {
+                  "left": 663,
+                  "top": 3466,
+                  "right": 664,
+                  "bottom": 3898
+                },
+                {
+                  "left": 390,
+                  "top": 1716,
+                  "right": 664,
+                  "bottom": 2159
+                },
+                {
+                  "left": 410,
+                  "top": 3760,
+                  "right": 644,
+                  "bottom": 3774
+                },
+                {
+                  "left": 609,
+                  "top": 4717,
+                  "right": 625,
+                  "bottom": 4730
+                },
+                {
+                  "left": 609,
+                  "top": 3852,
+                  "right": 625,
+                  "bottom": 3865
+                },
+                {
+                  "left": 413,
+                  "top": 4625,
+                  "right": 641,
+                  "bottom": 4639
+                },
+                {
+                  "left": 444,
+                  "top": 4430,
+                  "right": 606,
+                  "bottom": 4603
+                },
+                {
+                  "left": 391,
+                  "top": 6080,
+                  "right": 758,
+                  "bottom": 6337
+                },
+                {
+                  "left": 488,
+                  "top": 4648,
+                  "right": 566,
+                  "bottom": 4660
+                },
+                {
+                  "left": 473,
+                  "top": 4717,
+                  "right": 561,
+                  "bottom": 4730
+                },
+                {
+                  "left": 473,
+                  "top": 3853,
+                  "right": 561,
+                  "bottom": 3866
+                },
+                {
+                  "left": 462,
+                  "top": 4676,
+                  "right": 593,
+                  "bottom": 4692
+                },
+                {
+                  "left": 499,
+                  "top": 3812,
+                  "right": 523,
+                  "bottom": 3826
+                },
+                {
+                  "left": 484,
+                  "top": 3781,
+                  "right": 570,
+                  "bottom": 3795
+                },
+                {
+                  "left": 499,
+                  "top": 565,
+                  "right": 517,
+                  "bottom": 602
+                },
+                {
+                  "left": 443,
+                  "top": 5230,
+                  "right": 615,
+                  "bottom": 5399
+                },
+                {
+                  "left": 427,
+                  "top": 3483,
+                  "right": 624,
+                  "bottom": 3725
+                },
+                {
+                  "left": 120,
+                  "top": 7406,
+                  "right": 313,
+                  "bottom": 7474
+                },
+                {
+                  "left": 18,
+                  "top": 6378,
+                  "right": 345,
+                  "bottom": 6465
+                },
+                {
+                  "left": 18,
+                  "top": 4218,
+                  "right": 345,
+                  "bottom": 4305
+                }
+              ],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "diffFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\diff\\desktop_chrome-headless-shell\\FullPageScreen-chrome-latest-one-1920x1080.png",
+              "fileName": "FullPageScreen-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 7501,
+                  "width": 1920
+                },
+                "baseline": {
+                  "height": 7501,
+                  "width": 1920
+                },
+                "diff": {
+                  "height": 7501,
+                  "width": 1920
+                }
+              }
+            },
+            "misMatchPercentage": "10.34",
+            "rawMisMatchPercentage": 10.34433603297338
+          }
+        ]
+      },
+      {
+        "test": "Check show logo menu categories",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check show logo menu categories",
+            "tag": "Menu",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Menu-chrome-latest-one-1920x1080.png",
+              "fileName": "Menu-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 44,
+                  "width": 117
+                },
+                "baseline": {
+                  "height": 44,
+                  "width": 117
                 }
               }
             },
@@ -764,11 +1222,11 @@
         ]
       },
       {
-        "test": "Check Logo NE NE",
+        "test": "Check show banner sanvuong",
         "data": [
           {
             "description": "Visual",
-            "test": "Check Logo NE NE",
+            "test": "Check show banner sanvuong",
             "tag": "Sanvuon",
             "instanceData": {
               "browser": {
@@ -798,6 +1256,135 @@
                 "baseline": {
                   "height": 36,
                   "width": 67
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check savetable fullpage ",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check savetable fullpage ",
+            "tag": "save-tabbable123",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkTabbablePage",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\save-tabbable123-chrome-latest-one-1920x1080.png",
+              "fileName": "save-tabbable123-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 1784,
+                  "width": 1920
+                },
+                "baseline": {
+                  "height": 1784,
+                  "width": 1920
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check button search",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check button search",
+            "tag": "Search",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Search-chrome-latest-one-1920x1080.png",
+              "fileName": "Search-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 40,
+                  "width": 120
+                },
+                "baseline": {
+                  "height": 40,
+                  "width": 120
+                }
+              }
+            },
+            "misMatchPercentage": "0.00",
+            "rawMisMatchPercentage": 0
+          }
+        ]
+      },
+      {
+        "test": "Check show banner traicay ",
+        "data": [
+          {
+            "description": "Visual",
+            "test": "Check show banner traicay ",
+            "tag": "Traicay",
+            "instanceData": {
+              "browser": {
+                "name": "chrome-headless-shell",
+                "version": "127.0.6533.100"
+              },
+              "platform": {
+                "name": "windows",
+                "version": "not-known"
+              }
+            },
+            "commandName": "checkElement",
+            "framework": "mocha",
+            "boundingBoxes": {
+              "diffBoundingBoxes": [],
+              "ignoredBoxes": []
+            },
+            "fileData": {
+              "actualFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tmp\\actual\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
+              "baselineFilePath": "D:\\FPT-2024\\AutomationTestingOJT\\Session2\\TapHoaViet\\tests\\baseline\\desktop_chrome-headless-shell\\Traicay-chrome-latest-one-1920x1080.png",
+              "fileName": "Traicay-chrome-latest-one-1920x1080.png",
+              "size": {
+                "actual": {
+                  "height": 36,
+                  "width": 82
+                },
+                "baseline": {
+                  "height": 36,
+                  "width": 82
                 }
               }
             },

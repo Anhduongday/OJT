@@ -1,6 +1,6 @@
 import { User } from "../model/user";
 import Account from "./account.page";
-import elementPage from "./element.page";
+import elementPage from "./commonElement.page";
 import allureReporter from '@wdio/allure-reporter'
 class Register extends Account {
     public open() {
@@ -26,7 +26,6 @@ class Register extends Account {
         allureReporter.addStep('Input data to register form');
     }
     async verifyErrorMessageMatches(mess: string) {
-        
        await elementPage.verifyErrorMessMatches(mess);
     }
     async verifyInputFieldIsEmpty() {

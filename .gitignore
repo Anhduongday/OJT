@@ -16,7 +16,6 @@ coverage/
 # All local test reports
 reports/
 output/
-
 # Build files
 build/
 dist/
