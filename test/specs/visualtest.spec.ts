@@ -18,9 +18,9 @@ describe('Visual', () => {
         expect(result).toBeLessThanOrEqual(0.05);
     });
     it('Check Logo NE NE', async () => {
-        const logo =  $('.section-title'); 
+        const logo =  $('[data-id="4htp-tab-7"]'); 
         await logo.waitForDisplayed();
-        const result = await browser.checkElement(logo, 'mobile');
+        const result = await browser.checkElement(logo, 'Sanvuon');
         expect(result).toBeLessThanOrEqual(0.05);
     });
     it('Check Logo 3', async () => {
