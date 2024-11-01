@@ -30,7 +30,7 @@ describe('Visual', () => {
         expect(result).toBeLessThanOrEqual(0.05);
     });
     it('Check Logo NE NE 4', async () => {
-        const logo = await $('[data-id="2htp-tab-3"]'); 
+        const logo = await $('[data-id="2htp-tab-4"]'); 
         await logo.waitForDisplayed();
         const result = await browser.checkElement(logo, 'Okla2');
         expect(result).toBeLessThanOrEqual(0.05);
